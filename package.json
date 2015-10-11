@@ -1,0 +1,14 @@
+{
+  "name": "thailand-school-collector",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "x-ray": "^2.0.2"
+  }
+}
