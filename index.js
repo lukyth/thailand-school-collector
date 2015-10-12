@@ -8,11 +8,11 @@ var baseURLPrefix = "http://www.thaischool.in.th/sitemap.php?school_area=&provin
     provinces = require('./provinces.json')
 
 function appendObject(obj){
-  var resultFile = fs.readFileSync('./result.json')
+  var resultFile = fs.readFileSync('./result/result.json')
   var result = JSON.parse(resultFile)
   result.push(obj)
   var resultJSON = JSON.stringify(result)
-  fs.writeFileSync('./result.json', resultJSON)
+  fs.writeFileSync('./result/result.json', resultJSON)
 }
 
 provinces.map(function(province){
