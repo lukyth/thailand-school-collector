@@ -6,7 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": {
+    "email": "k.sujautra@gmail.com",
+    "name": "Kanitkorn Sujautra"
+  },
   "license": "ISC",
   "dependencies": {
     "x-ray": "^2.0.2"
