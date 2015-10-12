@@ -15,6 +15,14 @@ function appendObject(obj){
   fs.writeFileSync('./result/result.json', resultJSON)
 }
 
+function appendArray(arr){
+  var resultFile = fs.readFileSync('./result/schools.json')
+  var result = JSON.parse(resultFile)
+  Array.prototype.push.apply(result, obj);
+  var resultJSON = JSON.stringify(result)
+  fs.writeFileSync('./result/schools.json', resultJSON)
+}
+
 provinces.map(function(province){
   x(baseURLPrefix + province['id'] + baseURLSuffix, 'form', ['td > a'])
     .paginate('a[title="Next"]@href')(function(err, arr) {
@@ -22,5 +30,6 @@ provinces.map(function(province){
         province: province['name'],
         schools: arr
       })
+      appendArray(arr)
     })
 })
