@@ -13,5 +13,8 @@
   "license": "ISC",
   "dependencies": {
     "x-ray": "^2.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^1.7.3"
   }
 }

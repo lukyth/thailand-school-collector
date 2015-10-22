@@ -1,0 +1,47 @@
+{
+  "rules": {
+    "comma-dangle": [
+      2,
+      "never"
+    ],
+    "dot-location": [
+      2,
+      "property"
+    ],
+    "eqeqeq": [
+      2,
+      "smart"
+    ],
+    "indent": [
+      2,
+      2,
+      {
+        "VariableDeclarator": {
+          "const": 3,
+          "let": 2,
+          "var": 2
+        }
+      }
+    ],
+    "quotes": [
+      2,
+      "single"
+    ],
+    "linebreak-style": [
+      2,
+      "unix"
+    ],
+    "semi": [
+      2,
+      "never"
+    ],
+    "one-var": [
+      2,
+      "always"
+    ]
+  },
+  "env": {
+    "node": true
+  },
+  "extends": "eslint:recommended"
+}
