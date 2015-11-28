@@ -15,6 +15,6 @@
     "x-ray": "^2.0.2"
   },
   "devDependencies": {
-    "eslint": "^1.10.1"
+    "eslint": "^1.10.2"
   }
 }
