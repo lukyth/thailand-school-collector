@@ -12,9 +12,9 @@
   },
   "license": "ISC",
   "dependencies": {
-    "x-ray": "^2.0.2"
+    "x-ray": "^2.1.0"
   },
   "devDependencies": {
-    "eslint": "^1.7.3"
+    "eslint": "^2.5.1"
   }
 }
